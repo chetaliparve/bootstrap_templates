@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- Favicon icon -->
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+        <title>Material Pro Admin Template - Bootstrap 4 Admin Template</title>
+        <link rel="canonical" href="https://www.wrappixel.com/templates/materialpro/" />
+        <!-- Custom CSS -->
+        <!-- Custom CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" /> -->
+        <!-- Editable CSS -->
+        <!-- You can change the theme colors from here -->
+        <!--<link href="css/colors/blue.css" id="theme" rel="stylesheet">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+
+    <body class="fix-header fix-sidebar card-no-border">
+        <nav class="formget-header navbar top-navbar navbar-toggleable-sm navbar-light shadow-sm p-15 bg-white border-bottom">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 d-flex justify-content-md-start justify-content-center align-middle">
+                <a class="navbar-brand" href="https://forms.pabbly.com/your_form">
+                    <img src="https://forms.pabbly.com/new-app/images/new-fg-logo.png" alt="Formget Logo">
+                </a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 align-middle pl-0">
+                <div class="fg-form-sele-menu">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="fg-select-wrap h-100">
+                                <select class="fg-chosen-select form-control rounded font-14 h-100"
+                                        data-placeholder="Search your form...">
+                                    <option>1 Oct 2019 - 1 Nov 2019</option>
+                                    <option>1 Nov 2019 - 1 Dec 2019</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-6 col-12">
+                            <div class="fg-select-search-wrap d-flex w-100">
+                                <div class="dropdown">
+                                    <button type="button"
+                                            class="btn-primary2 text-bodycolor dropdown-toggle border rounded-left border-right-0 h-100 p-l-10 p-r-10 font-14"
+                                            data-toggle="dropdown">
+                                        Products
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </div>
+                                <div class="input-group font-14">
+                                    <input type="text" class="form-control border rounded-0" placeholder="">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary2 text-bodycolor rounded-right bg-primary2 border"
+                                                type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-md-end justify-content-center align-middle">
+                <div class="fg-user-menu-wrapper">
+                    <div class="fg-user-menu d-flex">
+                        <div
+                            class="fg-upgrade-btn col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8 d-flex justify-content-end p-0">
+                            <span class="font-12 mr-2 mb-0 m-t-10">15 days free trial</span>
+                            <button type="button" class="btn btn-danger p-l-15 p-r-15">Upgrade</button>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 fg-create-form-wrap">
+                            <a class="fg-create-new-form text-bodycolor"
+                               href="https://forms.pabbly.com/view_new/form">
+                                <i class="fas fa-plus-circle border border-primary1 rounded p-10"></i>
+                            </a>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 fg-user-nav-wrap">
+                            <div id="fg-user-img" class="fg-user-img">
+                                <div class="dropdown">
+                                    <img class="rounded-circle m-w-40"
+                                         src="https://www.gravatar.com/avatar/8b73ded475c7031376abf44945e5a40b?d=https://forms.pabbly.com/new-app/images/default-profile-pic.png"
+                                         alt="Profile Picture" data-toggle="dropdown">
+                                    <div class="dropdown-menu dropdown-menu-right font-14"
+                                         aria-labelledby="dropdownMenuLink">
+
+                                        <a class="dropdown-item"
+                                           href="https://forms.pabbly.com/profile">Accounts<span><small>Chetali
+                                                    parve</small></span></a>
+                                        <a class="dropdown-item"
+                                           href="https://forms.pabbly.com/profile/formget_plan"
+                                           target="_blank">Plan Details</a>
+                                        <a class="dropdown-item-text" href="https://www.formget.com/resources/"
+                                           target="_blank">Resources</a>
+                                        <a class="dropdown-item-text" href="https://accounts.pabbly.com/logout/"
+                                           target="_blank">Resources</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="fg-main-sidebar-wrap col-xl-1 col-lg-1 col-md-1 pl-0 pr-0 d-lg-block d-none m-w-85">
+                    <div id="fg-sidebar" class="bg-bodycolor h-100">
+                        <ul id="fg-all-ext" class="fg-sidebar_menu p-0">
+                            <li class="fg-list-item-con p-t-10 p-b-10 text-center d-block">
+                                <a href="https://forms.pabbly.com/your_form" class="fg-list-item">
+                                    <img src="https://forms.pabbly.com/new-app/images/sidebar_imgs/dashboard-2.png"
+                                         alt="Dashboard">
+                                    <span class="fg-menu-item-name m-t-5 text-center d-block text-white font-12">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="fg-list-item-con p-t-10 p-b-10 text-center d-block fg-menu_explore_btn_plus">
+                                <a href="https://forms.pabbly.com/entries/show/vyQ8-424415" class="fg-list-item">
+                                    <img src="https://forms.pabbly.com/new-app/images/sidebar_imgs/Forms.png"
+                                         alt="Forms">
+                                    <span class="fg-menu-item-name m-t-5 text-center d-block text-white font-12">Submissions</span>
+                                </a>
+
+                            </li>
+                            <li class="fg-list-item-con p-t-10 p-b-10 text-center d-block">
+                                <a href="https://forms.pabbly.com/code/code_view/vyQ8-424415" class="fg-list-item ">
+                                    <img src="https://forms.pabbly.com/new-app/images/sidebar_imgs/embed.png"
+                                         alt="Embed">
+                                    <span class="fg-menu-item-name m-t-5 text-center d-block text-white font-12">Share</span>
+                                </a>
+                            </li>
+                            <li class="fg-list-item-con p-t-10 p-b-10 text-center d-block">
+                                <a href="https://forms.pabbly.com/custom/custom_brand/vyQ8-424415"
+                                   class="fg-list-item">
+                                    <img src="https://forms.pabbly.com/new-app/images/sidebar_imgs/Settings.png" alt="Settings">
+                                    <span class="fg-menu-item-name m-t-5 text-center d-block text-white font-12">Settings</span>
+                                </a>
+                            </li>
+                            <li class="fg-list-item-con p-t-10 p-b-10 text-center d-block">
+                                <a href="https://forms.pabbly.com/email_setting/google_analytic/vyQ8-424415" class="fg-list-item">
+                                    <img src="https://forms.pabbly.com/new-app/images/sidebar_imgs/Integrations.png" alt="Integrations">
+                                    <span class="fg-menu-item-name m-t-5 text-center d-block text-white font-12">Integration</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fg-main-content-wrap col-md-11 p-0">
+                    <!-- ============================================================== -->
+                    <!-- Container fluid  -->
+                    <!-- ============================================================== -->
+                    <div class="container-fluid bg-white shadow-sm bottom">
+                        <div class="container">
+                            <div class="row page-titles p-3 m-b-30 p-b-0">
+                                <div class="col-md-5 col-12 align-self-center">
+                                    <h1 class="text-bodycolor">Delivery Server</h1>
+                                    <p class="text-secondary font-14">The additional available features of your account are listed here.</p>
+                                </div>
+                                <div class="col-md-7 col-12 align-self-center d-none d-md-block">
+                                    <div class="d-flex mt-2 justify-content-end">
+                                        <button type="button" class="btn btn-primary p-r-15">
+                                            <i class="fas fa-plus-circle rounded p-10"></i>Add Customer</button>
+                                    </div>
+                                </div>
+
+                                <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <li class="nav-item m-r-20">
+                                        <a class="nav-link active text-secondary" id="subscribers-tab" data-toggle="tab" href="#nav-subscribers" role="tab" aria-controls="nav-subscribers" aria-selected="true">All Subscribers</a>
+                                    </li>
+                                    <li class="nav-item m-r-20">
+                                        <a class="nav-link text-secondary" id="segments-tab" data-toggle="tab" href="#nav-segments" role="tab" aria-controls="nav-segments" aria-selected="false">Segments</a>
+                                    </li>
+                                    <li class="nav-item m-r-20">
+                                        <a class="nav-link text-secondary" id="groups-tab" data-toggle="tab" href="#nav-groups" role="tab" aria-controls="nav-groups" aria-selected="false">Groups</a>
+                                    </li>
+                                    <li class="nav-item m-r-20">
+                                        <a class="nav-link text-secondary" id="fields-tab" data-toggle="tab" href="#nav-fields" role="tab" aria-controls="nav-fields" aria-selected="false">Fields</a>
+                                    </li>
+                                    <li class="nav-item m-r-20">
+                                        <a class="nav-link text-secondary" id="stats-tab" data-toggle="tab" href="#nav-stats" role="tab" aria-controls="nav-stats" aria-selected="false">Stats(8)</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content d-none" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-subscribers" role="tabpanel" aria-labelledby="subscribers-tab">jhd iuasdi iausdi adidaodaod aodi oaid iusd</div>
+                                    <div class="tab-pane fade" id="nav-segments" role="tabpanel" aria-labelledby="segments-tab">jhasjd ij idiasd iaudi</div>
+                                    <div class="tab-pane fade" id="nav-groups" role="tabpanel" aria-labelledby="groups-tab">df jhd aidi audia diaudiau diad</div>
+                                    <div class="tab-pane fade" id="nav-fields" role="tabpanel" aria-labelledby="fields-tab"> sthf jhd aidi audia diaudiau diad</div>
+                                    <div class="tab-pane fade" id="nav-stats" role="tabpanel" aria-labelledby="groups-tab">jrey tyrthd aidi audia diaudiau diad</div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- Start Page Content -->
+                    <!-- ============================================================== -->
+                    <div class="container">
+
+
+                        <div class="row">
+                            <!-- Custom Table 1 -->
+                            <div class="col-12">
+                                <div class="card">
+
+                                    <div class="card-header p-t-20 p-b-20">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <!--<span class="text-secondary m-r-5">280 Items</span>-->
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="text-secondary">
+                                                    <span class="text-bodycolor m-r-5 font-14">1 Selected</span>
+                                                    <i class="fas fa-trash border bg-white rounded p-2 p-l-10 p-r-10 font-14 m-r-5" data-toggle="tooltip" data-placement="top" title="Delete"></i>
+                                                    <i class="fas fa-file-export border p-2 font-14 rounded bg-white" data-toggle="tooltip" data-placement="top" title="Export"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex justify-content-end">
+                                                <div class="text-secondary d-flex ">
+                                                    <div class="dropdown m-r-10">
+                                                        <button class="btn bg-primary2 dropdown-toggle text-bodycolor p-r-10 p-l-10 p-1 font-14" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Toggle Column
+                                                        </button>
+                                                        <div class="dropdown-menu font-14" aria-labelledby="dropdownToggleButton">
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                        </div>
+                                                    </div>
+                                                    <i class="fas fa-filter border font-14 rounded m-r-10 bg-white p-2 p-r-10" 
+                                                       data-toggle="popover"
+                                                       data-placement="bottom" 
+                                                       data-container="body"
+                                                       data-html="true" 
+                                                       data-content='<div class="table-popover">
+                                                       <div type="button" class="btn btn-outline-primary1 font-demi text-bodycolor bg-primary2 font-12 p-1 d-inline">Add Filter<i class="fas fa-plus-circle rounded m-1"></i></div>
+                                                       <div type="button" class="btn btn-outline-primary1 font-demi text-bodycolor bg-primary2 font-12 p-1 d-inline">Customer Name Contains Satya<i class="far fa-times-circle m-1"></i></div>
+                                                       <div type="button" class="btn btn-outline-primary1 font-demi text-bodycolor bg-primary2 font-12 p-1 d-inline">Choose Attribute<i class="far fa-times-circle m-1"></i></div>  
+                                                       </div>'>
+                                                    </i>
+
+                                                    <i class="fas fa-search border font-14 rounded bg-white mr-1 p-2" data-toggle="tooltip"
+                                                       data-placement="top" title="Search"></i>
+                                                    <div class="dropdown d-inline">
+                                                        <i class="fas fa-ellipsis-v font-16 text-secondary p-2 p-r-0"
+                                                           data-toggle="dropdown"></i>
+                                                        <div class="dropdown-menu dropdown-menu-right font-14"
+                                                             aria-labelledby="dropdownMenuLink">
+                                                            <a class="dropdown-item" href="#">View</a>
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Delete</a>
+                                                            <a class="dropdown-item" href="#">Export</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="card-body"> -->
+                                    <div class="table-responsive">
+                                        <table class="custom-table no-wrap table table-hover my-0">
+                                            <thead>
+                                                <tr>
+                                                    <th class="p-r-0" scope="col">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="checkAll">
+                                                            <label class="custom-control-label p-0"  for="checkAll"></label>
+                                                        </div>
+                                                    </th>
+                                                    <th class="p-r-0 p-l-5" scope="col"></th>
+                                                    <th scope="col">CUSTOMER NAME</th>
+                                                    <th scope="col">CUSTOMER EMAIL</th>
+                                                    <th scope="col">PRODUCT</th>
+                                                    <th class="text-right" scope="col">AMOUNT</th>
+                                                    <th class="text-right" scope="col">ADDONS AMOUNT</th>
+                                                    <th scope="col">DATE</th>
+                                                    <th class="p-r-15" scope="col">
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked1">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked1"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-success font-12"></i>
+                                                    </td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked2">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked2"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-success font-12"></i>
+                                                    </td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                                                            <label class="custom-control-label p-0" for="defaultUnchecked3"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-info font-12"></i></td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked4">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked4"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-info font-12"></i></td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked5">
+                                                            <label class="custom-control-label p-0" for="defaultUnchecked5"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5">
+                                                        <i class="fa fa-circle text-danger font-12"></i>
+                                                    </td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked6">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked6"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-success font-12"></i>
+                                                    </td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked7">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked7"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="p-r-0 p-l-5"><i class="fa fa-circle text-warning font-12"></i>
+                                                    </td>
+                                                    <td>Markus Gieringer
+                                                        <br> <span class="font-12 text-secondary">VP of sales</span>
+                                                    </td>
+                                                    <td> mgieringer@gmail.com
+                                                        <br> <span class="font-12 text-secondary">All-Inclusive Policy</span>
+                                                    </td>
+                                                    <td>Pabbly LTDs
+                                                    </td>
+                                                    <td class="text-right">$499.00 </td>
+                                                    <td class="text-right">$0 </td>
+                                                    <td> Nov 29, 2019 </td>
+                                                    <td class="m-w-15">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- </div> -->
+
+                                    <div class="card-footer bg-white p-t-20 p-b-20">
+                                        <div class="row">
+                                            <div class="col-md-6 d-flex">
+                                                <div class="dropdown m-r-10 ">
+                                                    <select class="from-control border bg-white dropdown-toggle text-secondary p-1 font-14 rounded" id="inputGroupSelect01">
+                                                        <option selected>10</option>
+                                                        <option value="1">10</option>
+                                                        <option value="2">20</option>
+                                                        <option value="3">30</option>
+                                                    </select>
+
+                                                </div>
+                                                <div class="text-secondary font-14 m-t-5">
+                                                    Showing 11-20 of 50 Records
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <nav aria-label="Page navigation example">
+                                                    <ul class="pagination justify-content-end font-14 m-b-0">
+                                                        <li class="page-item m-r-10">
+                                                            <a class="page-link rounded p-l-20 p-r-20 p-t-5 p-b-5" href="#" tabindex="-1">
+                                                                <i class="fas fa-chevron-left text-secondary font-12"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="page-item m-r-10 disabled">
+                                                            <a class="page-link rounded border-primary text-bodycolor p-l-20 p-r-20 p-t-5 p-b-5" href="#">5</a>
+                                                        </li>
+                                                        <li class="m-t-5 m-r-10">
+                                                            <span class="text-secondary font-14">5 of 10</span>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link rounded p-l-20 p-r-20 p-t-5 p-b-5" href="#">
+                                                                <i class="fas fa-chevron-right text-secondary font-12"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Custom Table 2 with hover -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15">
+                                        <h3 class="text-bodycolor m-b-0"> Amazon SES Quota</h3>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Sending Quota </td>
+                                                        <td class="text-right"> 50000 / 24 hours. </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Quota Used </td>
+                                                        <td class="text-right"> 0 sent in last 24 hours. </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Max Send Rate </td>
+                                                        <td class="text-right">25 emails/second.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Custom Table 2 without hover -->
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15">
+                                        <h3 class="text-bodycolor m-b-0"> Amazon SES Quota</h3>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Sending Quota </td>
+                                                        <td class="text-right"> 50000 / 24 hours. </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Quota Used </td>
+                                                        <td class="text-right"> 0 sent in last 24 hours. </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15"> Max Send Rate </td>
+                                                        <td class="text-right">25 emails/second.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sidebar and control form -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15">
+                                        <h3 class="text-bodycolor my-0"> 10 Active Server</h3>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20"><i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Amazon SES</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20"><i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15"> MailGun FormGet </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-danger font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Amazon SES</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-danger font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pepipost FormGet</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pepipost Inkthemes</td>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-danger font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Amazon SES</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-danger font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pepipost FormGet</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15 p-r-0 m-w-20">
+                                                            <i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pepipost Inkthemes</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15">
+                                        <h3 class="text-bodycolor my-0"> Profile Settings</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="form-row">
+                                                <!-- Input Fields -->
+                                                <div class="form-group col-md-6">
+                                                    <label for="Firstname">First Name</label>
+                                                    <input type="text" class="form-control" id="Firstname"
+                                                           placeholder="First Name">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="LastName">Last Name</label>
+                                                    <input type="text" class="form-control" id="LastName"
+                                                           placeholder="Last Name">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputEmail">Email</label>
+                                                    <input type="email" class="form-control" id="inputEmail"
+                                                           placeholder="Email">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputPassword">Password</label>
+                                                    <div class="input-group mb-2">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">@</div>
+                                                        </div>
+                                                        <input type="password" class="form-control" id="inputPassword"  placeholder="Password">
+                                                    </div>
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                </div>
+
+                                                <div class="form-group col-md-6 has-success">
+                                                    <label for="inputAddress">Address</label>
+                                                    <input type="text" class="form-control form-control-success"
+                                                           id="inputAddress" placeholder="1234 Main St">
+                                                    <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                        email with anyone else.</small>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputCity">City</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                            </div>
+                                            <!-- TextArea Fields -->
+                                            <div class="form-group">
+                                                <label for="inputTextarea">Textarea</label>
+                                                <textarea class="form-control" id="inputTextarea" rows="3"></textarea>
+                                            </div>
+                                            <!-- Disabled Input -->
+                                            <div class="form-group">
+                                                <label>Disabled Input</label>
+                                                <input class="form-control" type="text" placeholder="Disabled Input" readonly>
+                                            </div>
+                                            <!-- Disabled Select Input -->
+                                            <div class="form-group">
+                                                <label>Disabled Select Input</label>
+                                                <select class="custom-select" id="inputSelect1" disabled>
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <!-- Select Input -->
+                                            <div class="form-group">
+                                                <label>Select File</label>
+                                                <select class="custom-select" id="inputSelect">
+                                                    <option selected>Choose...</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <!-- Choose File -->
+                                            <div class="form-group">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">Choose file</label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Select Date: </label>
+                                                <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                                                    <input class="form-control" type="text" readonly />
+                                                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                                </div>
+                                            </div>
+
+                                            <!-- Default Checkbox -->
+                                            <div class="form-group">
+                                                <label>Gender</label>
+                                                <!-- Default 1-->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="defaultInline1">
+                                                    <label class="custom-control-label" for="defaultInline1">Male</label>
+                                                </div>
+
+                                                <!-- Default 2-->
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="defaultInline2">
+                                                    <label class="custom-control-label" for="defaultInline2">Female</label>
+                                                </div>
+
+                                            </div>
+                                            <!-- Default radios -->
+                                            <div class="form-group">
+                                                <label>Gender</label>
+                                                <!-- Group of default radios - option 1 -->
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" class="custom-control-input" id="customRadio1" name="groupOfDefaultRadios">
+                                                    <label class="custom-control-label" for="customRadio1">Male</label>
+                                                </div>
+
+                                                <!-- Group of default radios - option 2 -->
+                                                <div class="custom-control custom-radio">
+                                                    <input type="radio" class="custom-control-input" id="customRadio2" name="groupOfDefaultRadios" checked>
+                                                    <label class="custom-control-label" for="customRadio2">Female</label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <!-- Default checked -->
+                                                <div class="custom-control custom-switch">
+                                                    <input type="checkbox" class="custom-control-input" id="customSwitch1"  checked>
+                                                    <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+                                                </div>
+                                                <!-- Default disabled -->
+                                                <div class="custom-control custom-switch">
+                                                    <input type="checkbox" class="custom-control-input" id="customSwitch2" disabled>
+                                                    <label class="custom-control-label" for="customSwitch2">Toggle this switch element</label>
+                                                </div>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary">Save</button>
+                                            <button type="submit" class="btn btn-outline-secondary">Cancle</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15 d-flex">
+                                        <div class="col-md-6 p-l-0">
+                                            <h3 class="text-bodycolor my-0 "> Customers</h3>
+                                        </div>
+                                        <div class="col-md-6 d-flex justify-content-end p-r-0">
+                                            <div class="text-secondary">
+                                                <!--                                                <i class="fas fa-filter border p-2 rounded font-12" data-toggle="tooltip"
+                                                                                                   data-placement="top" title="Filter"></i>
+                                                                                                <i class="fas fa-search border p-2 rounded font-12" data-toggle="tooltip"
+                                                                                                   data-placement="top" title="Search"></i>-->
+
+                                                <i class="fas fa-filter border font-14 rounded d-inline m-r-5 bg-white p-2 p-r-5"> </i>
+                                                <i class="fas fa-search border font-14 rounded bg-white mr-1 p-2"></i>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="p-t-15">
+                                                            <i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pamela Readman
+                                                            <br> <span class="font-12 text-secondary">Nov 30, 2019</span>
+                                                            <span class="font-12 text-secondary m-l-5"> • 0 Payment</span>
+                                                        </td>
+                                                        <td class="text-success text-right font-demi">$321.00</td>
+                                                        <td class="m-w-10">
+                                                            <div class="dropdown d-none">
+                                                                <i class="fas fa-ellipsis-v text-secondary font-16" data-toggle="dropdown"></i>
+                                                                <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                     aria-labelledby="dropdownMenuLink">
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15">
+                                                            <i class="fa fa-circle text-danger font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pamela Readman
+                                                            <br> <span class="font-12 text-secondary">Nov 30, 2019</span>
+                                                            <span class="font-12 text-secondary m-l-5"> • 0 Payment</span>
+                                                        </td>
+                                                        <td class="text-success text-right font-demi">$321.00</td>
+                                                        <td class="m-w-10">
+                                                            <div class="dropdown d-none">
+                                                                <i class="fas fa-ellipsis-v text-secondary font-16" data-toggle="dropdown"></i>
+                                                                <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                     aria-labelledby="dropdownMenuLink">
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="p-t-15">
+                                                            <i class="fa fa-circle text-success font-14"></i>
+                                                        </td>
+                                                        <td class="text-bodycolor p-l-0 p-t-15 p-b-15">Pamela Readman
+                                                            <br> <span class="font-12 text-secondary">Nov 30, 2019</span>
+                                                            <span class="font-12 text-secondary m-l-5"> • 0 Payment</span>
+                                                        </td>
+                                                        <td class="text-success text-right font-demi">$321.00</td>
+                                                        <td class="m-w-10">
+                                                            <div class="dropdown d-none">
+                                                                <i class="fas fa-ellipsis-v text-secondary font-16" data-toggle="dropdown"></i>
+                                                                <div class="dropdown-menu dropdown-menu-right font-14 border-0" aria-labelledby="dropdownMenuLink">
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15 d-flex">
+                                        <h3 class="text-bodycolor my-0 ">Purchase Information</h3>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">PRODUCT</th>
+                                                        <th class="text-right" scope="col">AMOUNT</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">1 x Pabbly Email Marketing - 15K Subscribers
+                                                            <br> <span class="font-12 text-secondary">Product</span>
+                                                        </td>
+                                                        <td class="text-right">$15.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">1 x Setup Fee
+                                                            <br> <span class="font-12 text-secondary">Product</span>
+                                                        </td>
+                                                        <td class="text-right">$10.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">1 x Pabbly Form Builder - 1 Form
+                                                            <br> <span class="font-12 text-secondary">Addon</span>
+                                                        </td>
+                                                        <td class="text-right">$15.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">1 x Pabbly Email Verification - 1000 Emails
+                                                            <br> <span class="font-12 text-secondary">Addon</span>
+                                                        </td>
+                                                        <td class="text-right">$5.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">SGST 8%
+                                                            <br> <span class="font-12 text-secondary">Tax</span>
+                                                        </td>
+                                                        <td class="text-right">$3.60</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">VAT 10%
+                                                            <br> <span class="font-12 text-secondary">Tax</span>
+                                                        </td>
+                                                        <td class="text-right">$4.50</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-bodycolor p-t-15 p-b-15">DIV20 - 20%
+                                                            <br> <span class="font-12 text-secondary">Coupon</span> </td>
+                                                        <td class="text-right">$10.62</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-success font-demi p-t-15 p-b-15">Subscription Amount
+                                                        <td class="text-success font-demi text-right">$42.48</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15 d-flex">
+                                        <h3 class="text-bodycolor my-0 ">Transcation Details</h3>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <!--                                        <div class="table-responsive">-->
+                                        <table class="table m-b-0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="p-t-15 p-b-15">
+                                                        <div class="user-info-wrap d-flex">
+                                                            <img src="../assets/images/users/4.jpg"
+                                                                 class="rounded-circle m-w-45">
+                                                            <div class="user-info p-l-10">
+                                                                <p class="text-bodycolor font-15 m-0">Stuart Broad<span class="badge badge-success m-l-5 font-12">Live</span></p>
+                                                                <span class="font-12 text-secondary">stuartbroad1254@gmail.com</span>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-success font-demi p-t-15 p-b-15">$499
+                                                        <br> <span class="font-12 font-medium text-secondary">Amount</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor p-t-15 p-b-15">Oct 26, 2019 - Mar 26, 2019
+                                                        <br> <span class="font-12 text-secondary">Current Period</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor text-break p-t-15 p-b-15">4v12c1sx65d1c3a2x35a65d2x3z2x
+                                                        <br> <span class="font-12 text-secondary">Transaction ID</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor p-t-15 p-b-15">Oct 26, 2019
+                                                        <br> <span class="font-12  text-secondary">Transaction Date</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor p-t-15 p-b-15">Test
+                                                        <br> <span class="font-12 text-secondary">Gateway</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor p-t-15 p-b-15">xxxxxxxxxxxx-0124
+                                                        <br> <span class="font-12 text-secondary">Payment Method</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary p-t-15 p-b-15">INV- 14
+                                                        <br> <span class="font-12 text-secondary">Invoice NO</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-primary text-break p-t-15 p-b-15">4v12c1sx65d1c3a2x35a65d2x3z2x
+                                                        <br> <span class="font-12 text-secondary">Susbcription ID</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-bodycolor p-t-15 p-b-15">Recurring
+                                                        <br> <span class="font-12 text-secondary">Plan Type</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <!-- Custom Table 1 -->
+                            <div class="col-12">
+                                <div class="card">
+                                    <!-- <div class="card-body"> -->
+                                    <div class="table-responsive">
+                                        <table class="custom-table-emails no-wrap table table-hover my-0">
+                                            <thead>
+                                                <tr>
+                                                    <th class="p-r-0 m-w-25" scope="col">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                                            <label class="custom-control-label p-0" for="defaultUnchecked"></label>
+                                                        </div>
+                                                    </th>
+                                                    <th class="p-r-0 p-l-5" scope="col"></th>
+                                                    <th scope="col">CAMPAIGN NAME</th>
+                                                    <th scope="col">SENT</th>
+                                                    <th scope="col">OPENED</th>
+                                                    <th class="" scope="col">CLICKED</th>
+                                                    <th class="" scope="col">UNSUBSCRIBE</th>
+                                                    <th scope="col"> </th>
+                                                    <th scope="col"> </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="p-r-0 m-w-25">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                                                            <label class="custom-control-label p-0" for="defaultUnchecked1"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="m-w-70">
+                                                        <img src="../assets/images/users/4.jpg" alt="user" class="rounded border border-primary1 m-w-80">
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle">PFB Christmas offer
+                                                        <br> <span class="font-12 font-medium text-secondary">Created On : Aug 08, 2019 PM </span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="m-w-50 align-middle"> 
+                                                        <button type="submit" class="btn btn-outline-secondary">Send</button>
+                                                    </td>
+
+                                                    <td class="align-middle m-w-20">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0 m-w-25">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                                                            <label class="custom-control-label p-0" for="defaultUnchecked1"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="m-w-70">
+                                                        <img src="../assets/images/users/3.jpg" alt="user" class="rounded border border-primary1 m-w-80">
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle w-25">PFB Christmas offer
+                                                        <br> <span class="font-12 font-medium text-secondary">Created On : Aug 08, 2019 PM </span>
+                                                        <!-- <span data-toggle="tooltip" data-html="true" data-placement="right" title="Tooltip"> -->
+                                                        <span 
+                                                            data-toggle="popover"
+                                                            data-html="true"   
+                                                            data-content='<div class="table-popover p-3">
+                                                            <div class="table-popover-row  p-b-10 m-b-10">
+                                                            <p class="font-demi font-14 m-b-0">Email Sent On</p>
+                                                            <span class="font-medium font-12">Dec 10, 2019 11:24 AM</span>
+                                                            </div>
+                                                            <div class="table-popover-row p-b-10 m-b-10">
+                                                            <p class="font-demi font-14 m-b-0">Sent Via</p>
+                                                            <span class="font-medium font-12">Amazon SES</span>
+                                                            </div>
+                                                            <div class="table-popover-row p-b-10 m-b-10">
+                                                            <p class="font-demi font-14 m-b-0">List</p>
+                                                            <span class="font-medium font-12">My email list, Pabbly email list,</span>
+                                                            </div>
+                                                            </div>'>
+
+                                                            <i class="fas fa-info-circle text-primary d-none"></i>
+                                                        </span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="m-w-50 align-middle"> 
+                                                        <button type="submit" class="btn btn-outline-secondary">Send</button>
+                                                    </td>
+
+                                                    <td class="align-middle m-w-20">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="p-r-0 m-w-25">
+                                                        <div class="custom-control custom-checkbox m-l-5">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                   id="defaultUnchecked1">
+                                                            <label class="custom-control-label p-0"
+                                                                   for="defaultUnchecked1"></label>
+                                                        </div>
+                                                    </td>
+                                                    <td class="m-w-70">
+                                                        <img src="../assets/images/users/2.jpg" alt="user" class="rounded border border-primary1 m-w-80">
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle">PFB Christmas offer
+                                                        <br> <span class="font-12 font-medium text-secondary">Created On : Aug 08, 2019 PM </span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="text-bodycolor font-demi align-middle"> 2510
+                                                        <br> <span class="font-12 font-medium text-secondary">10%</span>
+                                                    </td>
+                                                    <td class="m-w-50 align-middle"> 
+                                                        <button type="submit" class="btn btn-outline-secondary">Send</button>
+                                                    </td>
+
+                                                    <td class="align-middle m-w-20">
+                                                        <div class="dropdown d-none">
+                                                            <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                               data-toggle="dropdown"></i>
+                                                            <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                                 aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                                <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15 d-flex">
+                                        <div class="col-md-6 p-l-0">
+                                            <h3 class="text-bodycolor my-0 ">Email Reports</h3>
+                                        </div>
+                                        <div class="col-md-6 d-flex justify-content-end p-r-0">
+                                            <div class="text-secondary">
+                                                <i class="fas fa-filter border font-14 rounded d-inline m-r-5 bg-white p-2 p-r-5"> </i>
+                                                <i class="fas fa-search border font-14 rounded bg-white m-r-5 p-2"></i>
+                                                <i class="fas fa-ellipsis-v text-secondary font-16"
+                                                   data-toggle="dropdown"></i>
+                                                <div class="dropdown-menu dropdown-menu-right font-14 border-0"
+                                                     aria-labelledby="dropdownMenuLink">
+                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">View</a>
+                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Edit</a>
+                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Delete</a>
+                                                    <a class="dropdown-item p-t-5 p-b-5" href="#">Export</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-t-0">
+                                        <div class="row m-t-20">
+                                            <div class="col-md-6">
+                                                <select class="custom-select" id="inputGroupSelect01">
+                                                    <option selected>Make this Christmas merrier with us.</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <select class="custom-select" id="inputGroupSelect01">
+                                                    <option selected>Make this Christmas merrier with us.</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row m-t-20">
+                                            <div class="col-md-4">
+                                                <img class="w-100 rounded" src="../assets/images/users/4.jpg">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="table-responsive">
+                                                    <table class="table m-b-0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="text-bodycolor font-demi">Sender Name </td>
+                                                                <td class="text-bodycolor">Pabbly Subscription Billing</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-bodycolor font-demi">Sender Address </td>
+                                                                <td class="text-bodycolor">admin@pabbly.com</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-bodycolor font-demi">Reply-to-Address </td>
+                                                                <td class="text-bodycolor">admin@pabbly.com</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-bodycolor font-demi">Sent Via </td>
+                                                                <td class="text-bodycolor">PMTA Pabbly</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-bodycolor font-demi">Sent List </td>
+                                                                <td class="text-bodycolor">PSB-1 Christmas 2019 non customer list</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="card">                                  
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-secondary p-t-15"> SENT
+                                                            <br><h2 class="font-bold text-primary">2250</h2></td>
+                                                        <td class="text-right">
+                                                            <br><span class="font-medium">100%</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">                                  
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-secondary p-t-15"> OPENED
+                                                           <br><h2 class="font-bold text-primary">2250</h2></td>
+                                                        <td class="text-right">
+                                                            <br><span class="font-medium">15%</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">                                  
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-secondary p-t-15"> CLICKED
+                                                        <br><h2 class="font-bold text-primary">10</h2></td>
+                                                        <td class="text-right">
+                                                            <br><span class="font-medium">37%</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">                                  
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-secondary p-t-15"> LINKED
+                                                           <br><h2 class="font-bold text-primary">2250</h2></td>
+                                                        <td class="text-right">
+                                                            <br><span class="font-medium">100%</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">                                  
+                                    <div class="card-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table m-b-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-secondary p-t-15"> UNSUBSCRIBER
+                                                           <br><h2 class="font-bold text-primary">2250</h2></td>
+                                                        <td class="text-right">
+                                                            <br><span class="font-medium">0.09</span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header p-t-15 p-b-15">
+                                        <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+                                            <li class="nav-item m-r-20">
+                                                <a class="nav-link active text-secondary font-demi" id="upload-tab" data-toggle="tab" href="#nav-upload" role="tab" aria-controls="nav-upload" aria-selected="true">Upload File</a>
+                                            </li>
+                                            <li class="nav-item m-r-20">
+                                                <a class="nav-link text-secondary font-demi" id="lists-tab" data-toggle="tab" href="#nav-ip-list" role="tab" aria-controls="nav-ip-list" aria-selected="false">Paste IP List</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="tab-content" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="nav-upload" role="tabpanel" aria-labelledby="upload-tab">
+                                                <!--                                        <form action="upload.php" method="POST">
+                                                  <input type="file" multiple>
+                                                  <p>Drag your files here or click in this area.</p>
+                                                  <button type="submit">Upload</button>
+                                                </form>-->
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">Choose file</label>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="nav-ip-list" role="tabpanel" aria-labelledby="lists-tab">jhasjd ij idiasd iaudi</div>
+                                        </div>
+                                        <button type="button" class="btn btn-primary text-right float-right m-t-20">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <div class="row">
+                <div class="fg-main-footer bg-white border-top w-100">
+                    <div class="col-md-12">
+                        <p class="sub_footer_text m-t-10 m-b-10 text-center">Pabbly © 2019 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- All Jquery -->
+        <!-- ============================================================== -->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>-->
+        <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>-->
+
+
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>--> 
+        <script src="../assets/plugins/jquery/jquery.min.js"></script>
+        <!-- Bootstrap tether Core JavaScript -->
+        <script src="../assets/plugins/popper/popper.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>-->
+        <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>--> 
+        <!-- slimscrollbar scrollbar JavaScript -->
+        <script src="js/jquery.slimscroll.js"></script>
+        <!--Wave Effects -->
+        <script src="js/waves.js"></script>
+        <!--Menu sidebar -->
+        <script src="js/sidebarmenu.js"></script>
+        <!--stickey kit -->
+        <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+        <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+        <!--Custom JavaScript -->
+        <script src="js/custom.min.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- Editable -->
+        <script src="../assets/plugins/jquery-datatables-editable/jquery.dataTables.js"></script>
+        <script src="../assets/plugins/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+        <script src="../assets/plugins/tiny-editable/mindmup-editabletable.js"></script>
+        <script src="../assets/plugins/tiny-editable/numeric-input-example.js"></script>
+        <script>
+            $('#mainTable').editableTableWidget().numericInputExample().find('td:first').focus();
+            $('#editable-datatable').editableTableWidget().numericInputExample().find('td:first').focus();
+            $(function () {
+                $('#editable-datatable').DataTable();
+            });
+//            var rowCount = $('.custom-table tbody tr').length;
+//            console.log(rowCount);
+//$(document).ready(function(){
+//  $('form input').change(function () {
+//    $('form p').text(this.files.length + " file(s) selected");
+//  });
+//});
+
+        </script>
+        <!-- ============================================================== -->
+        <!-- Style switcher -->
+        <!-- ============================================================== -->
+        <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    </body>
+
+</html>
